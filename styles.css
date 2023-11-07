@@ -45,8 +45,28 @@ table {
 
 /* end of reset */
 
+/*
+:root {
+    --background: #E5446D;
+	--maintext: #F5F3BB;
+}
+*/
+
+/*
+:root {
+    --background: #5C5D8D;
+	--maintext: #F5F3BB;
+}
+*/
+
+:root {
+    --background: #654F6F;
+	--maintext: #F5F3BB;
+}
+
 body {
 	width: 100vw;
+	background-color: var(--background);
 }
 
 .holder {
@@ -55,5 +75,27 @@ body {
 }
 
 h1 {
-	font-family: 'Courier New', Courier, monospace;
+	margin-top: 5%;
+	color: var(--maintext);
+	font-family: 'Grandiflora One', cursive;
+	font-size: 10vh;
+	text-align: center;
+}
+
+.holder img {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.form {
+	font-family: 'Grandiflora One', cursive;
+	font-size: 5vh;
+	color: var(--maintext);
+	text-align: center;
+}
+
+input {
+	height: 4vh;
+	width: 60%;
 }
